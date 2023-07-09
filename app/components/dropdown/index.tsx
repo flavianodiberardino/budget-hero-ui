@@ -86,7 +86,7 @@ const Dropdown: FC<PropsWithChildren<DropdownProps>> = ({ className = '', items,
           {children ?? selected?.label}
         </button>
         {visible && (
-          <div className='bg-bh-gray-100 mt-0 flex flex-col absolute rounded shadow-xl font-semibold text-bh-blue-200 overflow-hidden'>
+          <div className='bg-bh-gray-100 mt-0 flex flex-col absolute rounded font-semibold text-bh-blue-200 overflow-hidden'>
               {renderDropdownItems()}
           </div>
         )}
