@@ -1,4 +1,4 @@
-import { inter } from './fonts';
+import { leagueSpartan } from './fonts';
 import './globals.css';
 
 export const metadata = {
@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-bh-gray-100`}>{children}</body>
+      <body className={`${leagueSpartan.className} bg-bh-gray-100`}>{children}</body>
     </html>
   );
 };
